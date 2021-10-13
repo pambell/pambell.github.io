@@ -1,0 +1,49 @@
+*, html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	color: #000;
+	font-family: Helvetica, 'Courier New', Arial;
+	font-size: 0.8rem;
+	line-height: 1rem;
+	letter-spacing: 1.1rem;
+}
+
+.container {
+	margin: 40px auto;
+}
+
+#header,
+#project {
+	display: table;
+}
+
+#header div,
+#project div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#header .github-logo {
+	content: url(https://github.githubassets.com/images/modules/logos_page/Octocat.png);
+	max-height: 120px;
+}
+
+#header .title {
+	font-size: 2.4rem;
+	letter-spacing: 1.4rem;
+}
+
+#project {
+	margin: 40px auto;
+}
+
+#project .pamsgems-logo {
+	content: url(../pamsgems/images/pams-gems-logo.png);
+	max-width: 60px;
+}
+
+#project .title {
+	font-size: 1.6rem;
+	letter-spacing: 1.2rem;
+}

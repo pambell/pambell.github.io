@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{39631880-49F2-4D23-B74B-EB3DE4310314}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		index.html = index.html
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{9505A72B-47CD-47D0-AFBE-C5152B11D3D2}"
+	ProjectSection(SolutionItems) = preProject
+		pamsgems\css\styles.css = pamsgems\css\styles.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{FC0166A6-D715-4895-9AB6-6544E31F8A69}"
+	ProjectSection(SolutionItems) = preProject
+		images\pams-gems-logo.png = images\pams-gems-logo.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pamsgems", "pamsgems", "{09E6DF81-C869-4055-B33F-C2FDC2E88B11}"
+	ProjectSection(SolutionItems) = preProject
+		pamsgems\index.html = pamsgems\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{9599681F-B910-4461-A92B-15A442277C69}"
+	ProjectSection(SolutionItems) = preProject
+		css\normalize.css = css\normalize.css
+		css\styles.css = css\styles.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "product-images", "product-images", "{E6267D27-CADE-417B-B082-E4EE5C8724F5}"
+	ProjectSection(SolutionItems) = preProject
+		pamsgems\product-images\Image01.jpg = pamsgems\product-images\Image01.jpg
+		pamsgems\product-images\Image02.jpg = pamsgems\product-images\Image02.jpg
+		pamsgems\product-images\Image03.jpg = pamsgems\product-images\Image03.jpg
+		pamsgems\product-images\Image04.jpg = pamsgems\product-images\Image04.jpg
+		pamsgems\product-images\Image05.jpg = pamsgems\product-images\Image05.jpg
+		pamsgems\product-images\Image06.jpg = pamsgems\product-images\Image06.jpg
+		pamsgems\product-images\Image07.jpg = pamsgems\product-images\Image07.jpg
+		pamsgems\product-images\Image08.jpg = pamsgems\product-images\Image08.jpg
+		pamsgems\product-images\Image09.jpg = pamsgems\product-images\Image09.jpg
+		pamsgems\product-images\Image10.jpg = pamsgems\product-images\Image10.jpg
+		pamsgems\product-images\Image11.jpg = pamsgems\product-images\Image11.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9505A72B-47CD-47D0-AFBE-C5152B11D3D2} = {09E6DF81-C869-4055-B33F-C2FDC2E88B11}
+		{FC0166A6-D715-4895-9AB6-6544E31F8A69} = {09E6DF81-C869-4055-B33F-C2FDC2E88B11}
+		{09E6DF81-C869-4055-B33F-C2FDC2E88B11} = {39631880-49F2-4D23-B74B-EB3DE4310314}
+		{9599681F-B910-4461-A92B-15A442277C69} = {39631880-49F2-4D23-B74B-EB3DE4310314}
+		{E6267D27-CADE-417B-B082-E4EE5C8724F5} = {09E6DF81-C869-4055-B33F-C2FDC2E88B11}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18F114C7-5946-445B-9CAB-87E66CD2C389}
+	EndGlobalSection
+EndGlobal
